@@ -12,3 +12,11 @@ test_lst = [
     [19, 20, 21],
     [22, 23, None],
 ]
+for i in range(len(test_lst)):
+    for j in range(len(test_lst[i])):
+        if test_lst[i][j] == None:
+            test_lst[i][j] = 0
+
+
+
+print (test_lst)

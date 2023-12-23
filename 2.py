@@ -22,4 +22,8 @@ for line in text:
         else:
             new_line.append(word)
     new_text.append(' '.join(new_line))
+
 print('\n'.join(new_text))
+
+with open('2_raint.txt','w',encoding="utf-8")   as f:
+    f.write('\n'.join(new_text) )
